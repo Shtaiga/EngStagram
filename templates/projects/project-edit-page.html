@@ -1,0 +1,12 @@
+{% extends 'base/base.html' %}
+{% load static %}
+{% block page_content %}
+<div class="edit-delete edit-photo">
+    <h2>Edit Project</h2>
+    <form method="post" action="{% url 'edit project' username=username project_slug=project_slug %}">
+        {{ form.as_p }}
+        <button class="edit-btn" type="submit">Edit</button>
+        {% csrf_token %}
+    </form>
+</div>
+{% endblock %}

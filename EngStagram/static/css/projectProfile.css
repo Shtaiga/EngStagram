@@ -1,0 +1,60 @@
+.project-profile {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.project-profile .profile-data {
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+.project-profile .footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.project-posts {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-top: 1px solid #ddd;
+    flex-wrap: wrap;
+}
+
+.project-posts .card {
+    margin-top: 20px;
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    border: 1px solid rgba(7, 7, 7, 0.24);
+    flex-basis: 100%;
+}
+
+.project-posts .card .top {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-posts .card .bottom {
+    padding: 10px 20px;
+}
+
+.project-posts .card .top .userDetails {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.project-posts h3 {
+    font-size: 16px !important;
+    color: #4d4d4f !important;
+    font-weight: 500 !important;
+    line-height: 1em !important;
+    white-space: nowrap !important; 
+}
